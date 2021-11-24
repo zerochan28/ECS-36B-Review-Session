@@ -2,26 +2,26 @@
     {
         "name": "Meal_Plan",
         "params": {
-            "name": "Gunrock",
-            "meals": 20
+		"name": "Gunrock",
+		"meals": 20
         },
         "returns": {
-            "status": "successful",
-	        "new_meals": 19,
-            "reason": "Insufficient balance"
+		"status": "successful",
+		"new_meals": 19,
+		"reason": "Insufficient balance"
         }
     },{
         "name": "Aggie_Cash",
         "params": {
-            "name": "Gunrock",
-            "food": "Salad",
-            "balance": 100.0,
-            "price": 5.0
+		"name": "Gunrock",
+		"food": "Salad",
+		"balance": 100.0,
+		"price": 5.0
         },
         "returns": {
-		    "status": "successful",
-		    "new_balance": 95.0,
-		    "reason": "Insufficient balance"
+		"status": "successful",
+		"new_balance": 95.0,
+		"reason": "Insufficient balance"
         }
     }
 ]
